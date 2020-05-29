@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:id="@+id/bar_root"
+    android:background="@color/color_ffffff">
+
+    <ImageView
+        android:id="@+id/img_bar_back"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dimen_20dp"
+        android:paddingLeft="@dimen/dimen_20dp"
+        android:layout_centerVertical="true"
+        android:scaleType="fitCenter"
+        android:paddingRight="@dimen/dimen_30dp"
+        android:visibility="gone"
+
+       />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal"
+        >
+
+        <com.app.weilong.lib.base.view.CircleImageView
+            android:id="@+id/img_bar_head"
+            android:layout_width="@dimen/dimen_20dp"
+            android:layout_height="@dimen/dimen_20dp"
+            android:layout_marginRight="@dimen/dimen_20dp"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/tv_bar_title"
+            android:text="xxxxxxxx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:textSize="@dimen/dimen_13sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:drawablePadding="@dimen/dimen_8dp"
+            android:textColor="@color/color_333333"
+            />
+    </LinearLayout>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:paddingRight="@dimen/dimen_16dp"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        android:id="@+id/img_bar_right"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:paddingRight="@dimen/dimen_20dp"
+        android:text="返回"
+        android:textColor="@color/color_333333"
+        android:visibility="gone"
+        android:textSize="@dimen/dimen_13sp"
+        android:gravity="center"
+        android:drawablePadding="@dimen/dimen_8dp"
+        android:layout_centerVertical="true"
+        android:id="@+id/tv_bar_right"/>
+
+
+
+</RelativeLayout>

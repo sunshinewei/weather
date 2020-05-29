@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">libModel</string>
+
+    <string name="label_cancel">取消</string>
+    <string name="label_ok">确定</string>
+    <string name="permission_title_rationale">需要</string>
+    <string name="permission_write_storage_rationale">保存图片需要存储权限</string>
+    <string name="label_select_picture">选择</string>
+    <string name="file_provider_authorities">com.yalantis.ucrop.provider</string>
+    <string name="format_crop_result_d_d">裁剪 (%1$dx%2$d)</string>
+
+    <string name="camera_permission_required">本功能需要相机权限！</string>
+</resources>
